@@ -1,3 +1,4 @@
+#code is sending value of sensor to python code to check for anomaly
 void setup() {
  Serial.begin(9600);
  // the TX pin of Bolt is connected to the RX pin of Arduino Serial Port
