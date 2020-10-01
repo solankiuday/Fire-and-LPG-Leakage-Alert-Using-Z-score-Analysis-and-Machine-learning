@@ -24,7 +24,7 @@ def compute_bounds(history_data,frame_size,factor):
 
 bolt = Bolt(conf2.API_KEY, conf2.DEVICE_ID)
 history_data=[]
-
+#loop used to detect anomaly
 while True:
     response=bolt.serialRead('1')
     data=json.loads(response)# converting to dictionary
